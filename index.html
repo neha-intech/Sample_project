@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Birthday Invitation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="confetti" id="confetti" aria-hidden="true"></div>
+
+<main class="card">
+  <h2>You're invited! 🎉</h2>
+  <!-- CHANGE THE NAME HERE -->
+  <h1>Akash's<br>Birthday</h1>
+  <div class="age">Turning 23</div>
+
+  <p class="msg">Cake, music and lots of fun. Please come, the party won't be the same without you!</p>
+
+  <section class="details">
+    <!-- CHANGE DATE, TIME AND PLACE HERE -->
+    <div><b>Date</b><span>23 November 2026</span></div>
+    <div><b>Time</b><span>7:00 PM</span></div>
+    <div><b>Place</b><span>Akash's house, MG Road, Bengaluru</span></div>
+  </section>
+
+  <div class="count" aria-label="Time left until the party">
+    <div><span id="d">0</span><small>days</small></div>
+    <div><span id="h">0</span><small>hours</small></div>
+    <div><span id="m">0</span><small>minutes</small></div>
+    <div><span id="s">0</span><small>seconds</small></div>
+  </div>
+
+  <button id="rsvp">Yes, I'm coming!</button>
+  <p id="thanks" role="status"></p>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
